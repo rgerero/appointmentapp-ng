@@ -1,0 +1,25 @@
+install ndoe js v16
+npm install @angular/cli@16.1.6 --location=global
+ng v
+
+Create new project:	ng new appointment-app
+Start the application: 	ng serve -o  
+Create new component: 	ng g component appointment-list
+Create new interface: 	ng g interface models/appointment
+
+
+-------------------------------------------------------------------------------------
+To connect github
+1. opt bash and generate the key in local machine
+    ssh-keygen -t rsa -b 4096 -C "rgerero@gmail.com"
+    ls -al ~/.ssh
+2. copy the pub key
+    clip < ~/.ssh/id_rsa2.pub
+
+3. If you see origin, remove it:
+    git remote -v
+    git remote remove origin
+
+4. Add you git repo then push
+    git remote add origin https://github.com/rgerero/appointmentapp-ng.git
+    git push -u origin master
