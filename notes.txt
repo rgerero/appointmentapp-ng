@@ -22,4 +22,12 @@ To connect github
 
 4. Add you git repo then push
     git remote add origin https://github.com/rgerero/appointmentapp-ng.git
-    git push -u origin master
+    git config --global http.postBuffer 209715200 
+    git config --global http.postBuffer 524288000
+    git push -u origin master    
+    git push --all origin --force --thin (use this if getting error of hung state)
+
+
+
+    git remote set-url origin https://github.com/rgerero/appointmentapp-ng.git
+    git remote set-url origin git@github.com:rgerero/appointmentapp-ng.git
