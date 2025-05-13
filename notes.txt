@@ -7,6 +7,7 @@ Start the application: 	ng serve -o
 Create new component: 	ng g component appointment-list
 Create new interface: 	ng g interface models/appointment
 
+install 'angular language service' - for angular intelissense 
 
 -------------------------------------------------------------------------------------
 To connect github
