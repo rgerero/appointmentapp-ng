@@ -9,6 +9,8 @@ Create new interface: 	ng g interface models/appointment
 
 install 'angular language service' - for angular intelissense 
 
+npm install bootstrap@5.3
+
 -------------------------------------------------------------------------------------
 To connect github
 1. opt bash and generate the key in local machine
