@@ -24,7 +24,6 @@ export class AppointmentListComponent {
       this.newAppointmentTitle="";
       this.newAppointmentDate= new Date();
       
-      alert(this.appointments.length)
     } 
   }
 }
